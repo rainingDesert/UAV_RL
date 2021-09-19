@@ -1,0 +1,2 @@
+g.V().hasLabel('[avm]Design').has('[]Name',"__SOURCEDESIGN__").property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').in('inside').property('_tbd_','_DEL_').iterate()
+g.V().has('_tbd_','_DEL_').drop()

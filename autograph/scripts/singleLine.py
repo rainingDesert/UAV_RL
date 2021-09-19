@@ -1,0 +1,8 @@
+f = open('scripts/addRefCoordSys.groovy')
+contents = f.read()
+f.close()
+new_c = contents.replace('\n', '')
+new_contents = new_c.replace(' ','')
+f = open('scripts/addRefCoordSysx.groovy', 'w')
+f.write(new_contents)
+f.close()

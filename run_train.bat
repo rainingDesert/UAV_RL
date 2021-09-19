@@ -1,0 +1,3 @@
+@REM python run_train.py --csv_file "dataset/data.csv" --reward_log_path "store/log_re.npy" --log_path "store/log_ae.npy" --reward_path "store/after_reward.pth" --model_path "store/ae.pth" --batch_size 40 --re_ite 400 --ae_ite 400 --reward_lr 0.001 --model_lr 0.01
+@REM python run_train_full.py --log_path "store/log_full_ae.npy" --model_path "store/full_ae.pth" --batch_size 40 --ae_ite 400 --model_lr 0.0001
+python run_train_rl.py --csv_file "full_record.csv" --new_csv_file "store/update_entire_full_record.csv" --log_path "store/log_full_entire_rl.npy" --model_path "store/rl_entire_controller.pth" --sample_num 4 --parallel_num 2 --lr 0.01 --url "http://localhost:8080" --usr_name "gc669" --password "gc669"
